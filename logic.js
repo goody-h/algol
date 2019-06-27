@@ -42,7 +42,7 @@ function check(first, minRange) {
         }
     }
 
-    document.getElementById("result").innerHTML = `${highest},  form ${startIndex} to ${stopIndex}`
+    document.getElementById("result").innerHTML = `${highest},  form position ${startIndex + 1} to ${stopIndex + 1}`
 
     return highest
 }
