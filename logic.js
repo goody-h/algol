@@ -1,5 +1,12 @@
 var arr = []
 
+/**
+ * Two more parameters were included in the function
+ * @param first [Boolean] set to true to get the first occurence of largest sum
+ * @param minRange [Boolean] set to true to get the largest sum with smallest range
+ * 
+ * @returns [Array] of size 3 of the form [largestSum, startIndex, stopIndex] 
+ *  */
 function check(first, minRange) {
 
     arr = document.getElementById("array").value.split(/\s*,\s*/).map(function (v, i) {
